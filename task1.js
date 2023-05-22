@@ -1,23 +1,16 @@
-var model1={
-    name:'Mercedes Benz',
-    model:'C-Class',
-    manufacturer:'Daimler Ag company',
-    length:'4686mm',
-    cargo_capacity:'12.6 cubic feet'
+var i=5;
+var j=7;
+var k=(i*j);
+alert("Answer is"+k);
 
-}
-console.log(model1);
+var a=13;
+var b=7;
+var c=(a/b);
+alert("reminder is"+c);
 
-// var act={
-//     title:'Baahubali',
-//     director:'Rajamouli',
-//     producers:['Sobhu','Reghavendra','Prasad'],
-//     'laed actors with their roles':{
-//         Prabhas:'Baaghubali',
-//         anushaka:'Devasena',
-//         rana:'Bhalladeva',
-//         tamanna:'Avanthika'
-//     }
-// }
-// console.log(act);
+var x=10;
+var y=10;
+console.log(x+=y);
 
+
+console.log(x+=y);
