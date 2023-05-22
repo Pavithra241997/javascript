@@ -1,16 +1,23 @@
-function add(){
-var name=document.getElementById("name").value;
-var span1=document.getElementById("spn1");
-span1.innerHTML=("Required*");
-span1.style.color="red";
-
-var email=document.getElementById("email").value;
-var span2=document.getElementById("spn2");
-span2.innerHTML=("required*");
-span2.style.color="red";
-
-var but=document.getElementById("bid");
-but.style.backgroundColor="blue";
-but.style.color="white";
+var model1={
+    name:'Mercedes Benz',
+    model:'C-Class',
+    manufacturer:'Daimler Ag company',
+    length:'4686mm',
+    cargo_capacity:'12.6 cubic feet'
 
 }
+console.log(model1);
+
+// var act={
+//     title:'Baahubali',
+//     director:'Rajamouli',
+//     producers:['Sobhu','Reghavendra','Prasad'],
+//     'laed actors with their roles':{
+//         Prabhas:'Baaghubali',
+//         anushaka:'Devasena',
+//         rana:'Bhalladeva',
+//         tamanna:'Avanthika'
+//     }
+// }
+// console.log(act);
+
